@@ -1,0 +1,100 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: #F3F3F3;
+  font-family: helvetica;
+  text-align: center;
+  color: #202124;
+}
+a {
+  text-decoration: none;
+  color: #202124;
+  padding: 8px 40px;
+  width: 80%;
+  margin: 0 auto;
+}
+a > href {
+  font-size: 3em;
+
+}
+i.fas{
+  padding: 8px;
+  color: #575757;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+i.fas:hover {
+  transform: scale(1.1);
+}
+
+button {
+  margin: 30px 40px;
+  padding: 8px 16px;
+  color: white;
+  background-color: #40ABDD;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(0.97);
+  box-shadow: 0 0 25px #256482;
+}
+
+button > a {
+  color: white ;
+}
+
+input {
+  font-size: 1em;
+  width: 200px;
+  border-radius: 4px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+
+ form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    margin: 4px 30% 0 4%;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 30%;
+    right: 38%;
+}
+
+.submit {
+    position: absolute;
+    left: 43%;
+}
+.container {
+    width: 50%;
+    margin: 10px 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
